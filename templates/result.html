@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Financial Analysis Result</h2>
+
+    <p>Income: {{ income }}</p>
+    <p>Expenses: {{ expenses }}</p>
+    <p>Savings: {{ savings }}</p>
+
+    <h3>AI Advice: {{ advice }}</h3>
+
+    <a href="/">Go Back</a>
+</body>
+</html>
